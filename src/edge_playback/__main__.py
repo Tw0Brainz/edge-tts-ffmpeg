@@ -42,8 +42,8 @@ def _main() -> None:
             subtitle.close()
             vtt_fname = subtitle.name
 
-        print(f"Media file: {mp3_fname}")
-        print(f"Subtitle file: {vtt_fname}\n")
+        #print(f"Media file: {mp3_fname}")
+        #print(f"Subtitle file: {vtt_fname}\n")
         with subprocess.Popen(
             [
                 "edge-tts",
