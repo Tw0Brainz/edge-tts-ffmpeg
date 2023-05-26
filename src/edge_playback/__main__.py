@@ -56,8 +56,11 @@ def _main() -> None:
 
         with subprocess.Popen(
             [
-                "mpv",
-                f"--sub-file={vtt_fname}",
+                "ffplay",
+                "-nodisp",
+                "-autoexit",
+                "-loglevel","0"
+                #f"--sub-file={vtt_fname}",
                 mp3_fname,
             ]
         ) as process:
