@@ -59,7 +59,7 @@ def _main() -> None:
                 "ffplay",
                 "-nodisp",
                 "-autoexit",
-                "-loglevel","0"
+                "-loglevel","0",
                 #f"--sub-file={vtt_fname}",
                 mp3_fname,
             ]
